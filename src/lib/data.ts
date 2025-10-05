@@ -23,9 +23,9 @@ export const menuItems: MenuItem[] = [
   },
   {
     id: '3',
-    name: 'Classic Espresso',
-    description: 'A rich and aromatic shot of pure coffee delight.',
-    price: '₦1,500',
+    name: 'Fruity Pebbles edibles',
+    description: '300 mg… infused with a hybrid strain for more balanced effects such as euphoria, happy, relaxing, sociable and uplifting',
+    price: '$15 or 2 for $20',
     imageId: 'menu-espresso',
   },
   {
