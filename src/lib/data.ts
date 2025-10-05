@@ -50,4 +50,32 @@ export const menuItems: MenuItem[] = [
     price: '$7',
     imageId: 'menu-cheesecake',
   },
+  {
+    id: '7',
+    name: 'THC Infused Gummy Bears',
+    description: 'A handful of delicious gummy bears, each infused with a 10mg dose of fun. Perfect for a mellow afternoon.',
+    price: '$12',
+    imageId: 'menu-gummy-bears',
+  },
+  {
+    id: '8',
+    name: 'Space Cake Muffin',
+    description: 'A classic chocolate muffin with a cosmic twist. 150mg of stellar goodness for a journey to the moon.',
+    price: '$18',
+    imageId: 'menu-space-muffin',
+  },
+  {
+    id: '9',
+    name: 'Magic Chocolate Bar',
+    description: 'A rich dark chocolate bar with 10 easy-to-break-off 10mg squares. Share with friends or keep it all for yourself.',
+    price: '$25',
+    imageId: 'menu-magic-chocolate',
+  },
+  {
+    id: '10',
+    name: 'Relaxation Tea',
+    description: 'A soothing herbal tea infused with 25mg of CBD and a hint of THC to melt your stress away. Served hot or iced.',
+    price: '$8',
+    imageId: 'menu-relaxation-tea',
+  },
 ];
