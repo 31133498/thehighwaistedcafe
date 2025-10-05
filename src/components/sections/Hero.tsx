@@ -6,15 +6,23 @@ import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious
 import { Button } from "@/components/ui/button";
 import { PlaceHolderImages } from '@/lib/placeholder-images';
 import React from 'react';
+import Autoplay from "embla-carousel-autoplay";
 
 export default function Hero() {
   const heroImages = PlaceHolderImages.filter(img => img.id.startsWith('hero-'));
+
+  const plugin = React.useRef(
+    Autoplay({ delay: 4000, stopOnInteraction: true })
+  );
 
   return (
     <section id="home" className="relative h-screen w-full">
       <Carousel
         className="w-full h-full"
         opts={{ loop: true }}
+        plugins={[plugin.current]}
+        onMouseEnter={plugin.current.stop}
+        onMouseLeave={plugin.current.reset}
       >
         <CarouselContent className="h-full">
           {heroImages.map((image, index) => (
