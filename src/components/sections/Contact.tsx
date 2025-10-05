@@ -116,11 +116,11 @@ export default function Contact() {
               </div>
               <div>
                 <h3 className="font-semibold text-lg">Call Us</h3>
-                <a href="tel:+2348012345678" className="text-muted-foreground hover:text-primary">+234 801 234 5678</a>
+                <a href="tel:+13146956156" className="text-muted-foreground hover:text-primary">+1 314-695-6156</a>
               </div>
             </div>
             <Button asChild className="w-full bg-green-500 hover:bg-green-600 text-white">
-              <Link href="https://wa.me/2348012345678" target="_blank" rel="noopener noreferrer">
+              <Link href="https://wa.me/13146956156" target="_blank" rel="noopener noreferrer">
                 <MessageCircle className="mr-2 h-5 w-5" />
                 Chat with us on WhatsApp
               </Link>
