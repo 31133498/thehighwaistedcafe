@@ -1,3 +1,4 @@
+
 export type MenuItem = {
   id: string;
   name: string;
@@ -30,9 +31,9 @@ export const menuItems: MenuItem[] = [
   },
   {
     id: '4',
-    name: 'Buttery Croissant',
-    description: 'Flaky and light, perfect with your morning coffee.',
-    price: '₦1,800',
+    name: 'THC infused koolaid drinks',
+    description: '300mg per 16oz pouch.. made with a hybrid strain for more balanced effects such as anxiety, stress pain depression',
+    price: '$20',
     imageId: 'menu-croissant',
   },
   {
@@ -44,9 +45,9 @@ export const menuItems: MenuItem[] = [
   },
   {
     id: '6',
-    name: 'New York Cheesecake',
-    description: 'A decadent slice of creamy, rich cheesecake.',
-    price: '₦4,000',
+    name: 'THC Infused Lollipops',
+    description: 'THC infused lollipops…. 100mg each… infused with hybrid strain for more balanced effects such as feelings of euphoria, uplifting, happy',
+    price: '$7',
     imageId: 'menu-cheesecake',
   },
 ];
