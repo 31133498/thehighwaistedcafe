@@ -1,23 +1,18 @@
 "use client";
 
 import Image from 'next/image';
+import Link from 'next/link';
 import { Card, CardContent, CardFooter, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { menuItems, type MenuItem } from '@/lib/data';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
-import { useToast } from "@/hooks/use-toast";
 import { ShoppingCart } from 'lucide-react';
 
 const MenuItemCard = ({ item }: { item: MenuItem }) => {
-  const { toast } = useToast();
   const image = PlaceHolderImages.find(img => img.id === item.imageId);
-
-  const handleAddToCart = () => {
-    toast({
-      title: "Added to cart!",
-      description: `${item.name} has been added to your order.`,
-    });
-  };
+  const phoneNumber = "13146956156"; // Your WhatsApp number without '+' or other symbols
+  const message = `Hi! I'd like to order the ${item.name}.`;
+  const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
 
   return (
     <Card className="flex flex-col overflow-hidden bg-card/80 backdrop-blur-sm border-secondary/50 transform transition-all duration-300 hover:scale-105 hover:shadow-xl">
@@ -41,9 +36,11 @@ const MenuItemCard = ({ item }: { item: MenuItem }) => {
       </CardContent>
       <CardFooter className="flex justify-between items-center mt-auto pt-4">
         <p className="text-lg font-semibold text-foreground">{item.price}</p>
-        <Button onClick={handleAddToCart}>
-          <ShoppingCart className="mr-2 h-4 w-4" />
-          Add to Cart
+        <Button asChild>
+            <Link href={whatsappUrl} target="_blank" rel="noopener noreferrer">
+                <ShoppingCart className="mr-2 h-4 w-4" />
+                Order on WhatsApp
+            </Link>
         </Button>
       </CardFooter>
     </Card>
