@@ -38,9 +38,9 @@ export const menuItems: MenuItem[] = [
   },
   {
     id: '5',
-    name: 'Iced Americano',
-    description: 'Chilled espresso shots topped with water and ice.',
-    price: '₦2,500',
+    name: 'Infused Kaleidoscope brownies',
+    description: '150 mg each… infused with a hybrid strain for balanced effects such as feelings of euphoria, uplifting, sociable, happy relaxing',
+    price: '$20',
     imageId: 'menu-iced-coffee',
   },
   {
