@@ -1,3 +1,64 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "hero-1",
+      "description": "A cozy and elegant cafe interior with warm lighting.",
+      "imageUrl": "https://images.unsplash.com/photo-1648462908676-8305f0eff8e0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjYWZlJTIwaW50ZXJpb3J8ZW58MHx8fHwxNzU5NTk0ODMyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "cafe interior"
+    },
+    {
+      "id": "hero-2",
+      "description": "A close-up of a barista making beautiful latte art.",
+      "imageUrl": "https://images.unsplash.com/photo-1531441802565-2948024f1b22?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxsYXR0ZSUyMGFydHxlbnwwfHx8fDE3NTk2OTk5Njd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "latte art"
+    },
+    {
+      "id": "hero-3",
+      "description": "A delicious assortment of freshly baked pastries on a wooden table.",
+      "imageUrl": "https://images.unsplash.com/photo-1686172368295-6d72432ca765?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxkZWxpY2lvdXMlMjBwYXN0cmllc3xlbnwwfHx8fDE3NTk2OTk5Njd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "delicious pastries"
+    },
+    {
+      "id": "menu-latte",
+      "description": "A caramel latte in a clear glass mug.",
+      "imageUrl": "https://images.unsplash.com/photo-1680456367741-b73288f23a19?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8Y2FyYW1lbCUyMGxhdHRlfGVufDB8fHx8MTc1OTY5OTk2N3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "caramel latte"
+    },
+    {
+      "id": "menu-muffin",
+      "description": "A chocolate chip muffin on a plate.",
+      "imageUrl": "https://images.unsplash.com/photo-1611614010348-7df489604fe3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxjaG9jb2xhdGUlMjBtdWZmaW58ZW58MHx8fHwxNzU5Njk4Mjg2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "chocolate muffin"
+    },
+    {
+      "id": "menu-espresso",
+      "description": "A strong shot of espresso in a small white cup.",
+      "imageUrl": "https://images.unsplash.com/photo-1646257861487-60fa89bef25f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8ZXNwcmVzc28lMjBzaG90fGVufDB8fHx8MTc1OTY4MzgwN3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "espresso shot"
+    },
+    {
+      "id": "menu-croissant",
+      "description": "A golden, flaky croissant on a napkin.",
+      "imageUrl": "https://images.unsplash.com/photo-1623334044303-241021148842?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxidXR0ZXJ5JTIwY3JvaXNzYW50fGVufDB8fHx8MTc1OTY2NTMxNXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "buttery croissant"
+    },
+    {
+      "id": "menu-iced-coffee",
+      "description": "A tall glass of refreshing iced coffee.",
+      "imageUrl": "https://images.unsplash.com/photo-1558122104-355edad709f6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxpY2VkJTIwY29mZmVlfGVufDB8fHx8MTc1OTYwNDI3N3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "iced coffee"
+    },
+    {
+      "id": "menu-cheesecake",
+      "description": "A slice of creamy New York cheesecake with a cherry on top.",
+      "imageUrl": "https://images.unsplash.com/photo-1707528903686-91cbbe2f2985?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxjaGVlc2VjYWtlJTIwc2xpY2V8ZW58MHx8fHwxNzU5Njc1OTA1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "cheesecake slice"
+    },
+    {
+      "id": "about-us-image",
+      "description": "A cozy corner of the cafe with comfortable seating.",
+      "imageUrl": "https://images.unsplash.com/photo-1516832779604-54bee05bbc95?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxjb3p5JTIwY2FmZXxlbnwwfHx8fDE3NTk2ODY4MTl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "cozy cafe"
+    }
+  ]
 }
