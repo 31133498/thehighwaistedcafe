@@ -16,9 +16,9 @@ export const menuItems: MenuItem[] = [
   },
   {
     id: '2',
-    name: 'Chocolate Muffin',
-    description: 'Freshly baked with rich cocoa and dark chocolate chips.',
-    price: '₦2,000',
+    name: 'Golden Grahams edibles',
+    description: '300 mg each… infused with a hybrid strain for more balanced effects: euphoria, happy, relaxing, sociable, uplifting',
+    price: '$15',
     imageId: 'menu-muffin',
   },
   {
