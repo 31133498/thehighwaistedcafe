@@ -40,7 +40,7 @@ export default function Hero() {
       </Carousel>
       <div className="absolute inset-0 flex flex-col items-center justify-center text-center text-white p-4 z-10">
         <h1 className="font-headline text-5xl md:text-7xl lg:text-8xl font-bold drop-shadow-lg">
-          Sip, Relax, Enjoy
+          Cannabis Infused Products & Treats
         </h1>
         <p className="mt-4 text-lg md:text-xl max-w-2xl font-light">
           at <span className="font-semibold font-headline tracking-wide">High Waisted Café</span>
