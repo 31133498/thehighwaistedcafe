@@ -9,9 +9,9 @@ export type MenuItem = {
 export const menuItems: MenuItem[] = [
   {
     id: '1',
-    name: 'Caramel Latte',
-    description: 'A smooth espresso with creamy caramel and steamed milk.',
-    price: '₦3,500',
+    name: 'THC Infused Lollipops',
+    description: 'THC infused lollipops…. 100mg each… infused with hybrid strain for more balanced effects such as feelings of euphoria, uplifting, happy',
+    price: '$7',
     imageId: 'menu-latte',
   },
   {
