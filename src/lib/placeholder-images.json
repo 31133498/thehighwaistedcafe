@@ -63,25 +63,25 @@
     {
       "id": "menu-gummy-bears",
       "description": "A colorful pile of THC infused gummy bears.",
-      "imageUrl": "https://images.unsplash.com/photo-1682941232184-9879161901e0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxndW1teSUyMGJlYXJzfGVufDB8fHx8MTc1OTcwMzI0N3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://ik.imagekit.io/5iomqoxai6/new.jpeg?updatedAt=1759749673204",
       "imageHint": "gummy bears"
     },
     {
       "id": "menu-space-muffin",
       "description": "A delicious looking chocolate muffin with a cosmic-themed wrapper.",
-      "imageUrl": "https://images.unsplash.com/photo-1616512366501-69378f071a1c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxjaG9jb2xhdGUlMjBtdWZmaW58ZW58MHx8fHwxNzU5Njk4Mjg2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://ik.imagekit.io/5iomqoxai6/WhatsApp%20Image%202025-10-06%20at%206.10.12%20AM.jpeg?updatedAt=1759749396038",
       "imageHint": "chocolate muffin"
     },
     {
       "id": "menu-magic-chocolate",
       "description": "A bar of dark chocolate with squares, one of which is glowing.",
-      "imageUrl": "https://images.unsplash.com/photo-1523035274455-b2e5c6d5c2e0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxkYXJrJTIwY2hvY29sYXRlfGVufDB8fHx8MTc1OTY0OTE1NHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://ik.imagekit.io/5iomqoxai6/WhatsApp%20Image%202025-10-06%20at%206.09.38%20AM.jpeg?updatedAt=1759749393240",
       "imageHint": "dark chocolate"
     },
     {
       "id": "menu-relaxation-tea",
       "description": "A cup of herbal tea with steam rising from it, on a rustic table.",
-      "imageUrl": "https://images.unsplash.com/photo-1514733670139-4d87a1941d55?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxoZXJiYWwlMjB0ZWF8ZW58MHx8fHwxNzU5NjY1MDg0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://ik.imagekit.io/5iomqoxai6/WhatsApp%20Image%202025-10-06%20at%206.10.03%20AM.jpeg?updatedAt=1759749392975",
       "imageHint": "herbal tea"
     }
   ]
