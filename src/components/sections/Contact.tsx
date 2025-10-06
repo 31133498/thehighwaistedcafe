@@ -98,7 +98,7 @@ export default function Contact() {
               </div>
               <div>
                 <h3 className="font-semibold text-lg">Our Address</h3>
-                <p className="text-muted-foreground">123 Coffee Lane, Lagos, Nigeria</p>
+                <p className="text-muted-foreground">High Waisted Cafe 3375 N Hwy 67 Florissant Mo 63033</p>
               </div>
             </div>
             <div className="flex items-start gap-4">
