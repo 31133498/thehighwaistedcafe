@@ -107,7 +107,7 @@ export default function Contact() {
               </div>
               <div>
                 <h3 className="font-semibold text-lg">Email Us</h3>
-                <a href="mailto:hello@highwaisted.cafe" className="text-muted-foreground hover:text-primary">hello@highwaisted.cafe</a>
+                <a href="mailto:info@highwaistedcafe.com" className="text-muted-foreground hover:text-primary">info@highwaistedcafe.com</a>
               </div>
             </div>
              <div className="flex items-start gap-4">
