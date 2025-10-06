@@ -52,9 +52,9 @@ export const menuItems: MenuItem[] = [
   },
   {
     id: '7',
-    name: 'THC Infused Gummy Bears',
-    description: 'A handful of delicious gummy bears, each infused with a 10mg dose of fun. Perfect for a mellow afternoon.',
-    price: '$12',
+    name: 'THC Lean',
+    description: '16 fl oz 1000mg... infused with hybrid strain for more balanced effects.. you can add to your beverage of choice … effects: euphoria, happy, relaxing, sociable, uplifting',
+    price: '$65',
     imageId: 'menu-gummy-bears',
   },
   {
