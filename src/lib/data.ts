@@ -67,7 +67,7 @@ export const menuItems: MenuItem[] = [
   {
     id: '9',
     name: 'THC Medicated Salve',
-    description: 'Targets skin conditions such as dermatitis, eczema, psoriasis, skin rashes, itchy skin, and burns. Made with infused jojoba oil and essential oils. Available in 2oz, 4oz, and 8oz sizes.',
+    description: 'THC salve for skin conditions: dermatitis eczema psoriasis etc',
     price: '$25 (2oz) / $45 (4oz) / $90 (8oz)',
     imageId: 'menu-magic-chocolate',
   },
