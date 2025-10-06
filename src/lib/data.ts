@@ -66,9 +66,9 @@ export const menuItems: MenuItem[] = [
   },
   {
     id: '9',
-    name: 'Magic Chocolate Bar',
-    description: 'A rich dark chocolate bar with 10 easy-to-break-off 10mg squares. Share with friends or keep it all for yourself.',
-    price: '$25',
+    name: 'THC Medicated Salve',
+    description: 'Targets skin conditions such as dermatitis, eczema, psoriasis, skin rashes, itchy skin, and burns. Made with infused jojoba oil and essential oils. 2 oz.',
+    price: '$20',
     imageId: 'menu-magic-chocolate',
   },
   {
