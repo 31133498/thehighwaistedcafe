@@ -36,8 +36,8 @@ export default function Header() {
     >
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center h-20">
-          <Link href="#home" className="flex items-center gap-2 text-2xl font-headline font-bold text-primary">
-            <Image src="https://ik.imagekit.io/5iomqoxai6/logo%20(2).jpeg?updatedAt=1759763103032" alt="High Waisted Café Logo" width={50} height={50} className="rounded-full" />
+          <Link href="#home" className="flex items-center gap-3 text-2xl font-headline font-bold text-primary">
+            <Image src="https://ik.imagekit.io/5iomqoxai6/logo%20(2).jpeg?updatedAt=1759763103032" alt="High Waisted Café Logo" width={60} height={60} className="rounded-full" />
             <span>High Waisted</span>
           </Link>
 
@@ -69,8 +69,8 @@ export default function Header() {
               </SheetTrigger>
               <SheetContent side="right" className="w-[300px] sm:w-[400px] bg-background">
                 <div className="flex flex-col h-full p-6">
-                  <Link href="#home" className="flex items-center gap-2 text-2xl font-headline font-bold text-primary mb-8" onClick={() => setMobileMenuOpen(false)}>
-                     <Image src="https://ik.imagekit.io/5iomqoxai6/logo%20(2).jpeg?updatedAt=1759763103032" alt="High Waisted Café Logo" width={50} height={50} className="rounded-full" />
+                  <Link href="#home" className="flex items-center gap-3 text-2xl font-headline font-bold text-primary mb-8" onClick={() => setMobileMenuOpen(false)}>
+                     <Image src="https://ik.imagekit.io/5iomqoxai6/logo%20(2).jpeg?updatedAt=1759763103032" alt="High Waisted Café Logo" width={60} height={60} className="rounded-full" />
                     <span>High Waisted</span>
                   </Link>
                   <nav className="flex flex-col gap-6 text-lg">

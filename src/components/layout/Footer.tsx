@@ -13,8 +13,8 @@ export default function Footer() {
     <footer className="bg-background/90 backdrop-blur-sm border-t border-secondary/30">
       <div className="container mx-auto px-4 py-8">
         <div className="flex flex-col md:flex-row justify-between items-center gap-6">
-          <Link href="#home" className="flex items-center gap-2 text-xl font-headline font-bold text-primary">
-            <Image src="https://ik.imagekit.io/5iomqoxai6/logo%20(2).jpeg?updatedAt=1759763103032" alt="High Waisted Café Logo" width={40} height={40} className="rounded-full" />
+          <Link href="#home" className="flex items-center gap-3 text-xl font-headline font-bold text-primary">
+            <Image src="https://ik.imagekit.io/5iomqoxai6/logo%20(2).jpeg?updatedAt=1759763103032" alt="High Waisted Café Logo" width={50} height={50} className="rounded-full" />
             <span>High Waisted Café</span>
           </Link>
           <div className="flex gap-4">
