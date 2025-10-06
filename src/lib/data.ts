@@ -74,7 +74,7 @@ export const menuItems: MenuItem[] = [
   {
     id: '10',
     name: 'Canna Oil',
-    description: '8 oz (1 cup) of 2000mg Canna Oil. For all your culinary needs, elevate your experience. Infused with a hybrid strain for balanced effects like euphoria, happiness, relaxation, and upliftment.',
+    description: '8 oz/1 cup 2000mg. For all your culinary needs, elevate your experience. Infused with a hybrid strain for balanced effects like euphoria, happiness, relaxation, and upliftment.',
     price: '$70',
     imageId: 'menu-relaxation-tea',
   },
