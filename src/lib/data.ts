@@ -59,9 +59,9 @@ export const menuItems: MenuItem[] = [
   },
   {
     id: '8',
-    name: 'Space Cake Muffin',
-    description: 'A classic chocolate muffin with a cosmic twist. 150mg of stellar goodness for a journey to the moon.',
-    price: '$18',
+    name: 'Cannabutter',
+    description: '700 mg. Made with a hybrid strain for more balanced effects. Elevate your experience for all your culinary needs.',
+    price: '$40 (4oz) / $80 (8oz)',
     imageId: 'menu-space-muffin',
   },
   {
