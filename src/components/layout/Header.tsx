@@ -2,7 +2,8 @@
 
 import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
-import { Coffee, Menu as MenuIcon } from 'lucide-react';
+import Image from 'next/image';
+import { Menu as MenuIcon } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
 import { cn } from '@/lib/utils';
@@ -36,7 +37,7 @@ export default function Header() {
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center h-20">
           <Link href="#home" className="flex items-center gap-2 text-2xl font-headline font-bold text-primary">
-            <Coffee className="h-8 w-8" />
+            <Image src="https://ik.imagekit.io/5iomqoxai6/logo%20(2).jpeg?updatedAt=1759763103032" alt="High Waisted Café Logo" width={40} height={40} className="rounded-full" />
             <span>High Waisted</span>
           </Link>
 
@@ -69,7 +70,7 @@ export default function Header() {
               <SheetContent side="right" className="w-[300px] sm:w-[400px] bg-background">
                 <div className="flex flex-col h-full p-6">
                   <Link href="#home" className="flex items-center gap-2 text-2xl font-headline font-bold text-primary mb-8" onClick={() => setMobileMenuOpen(false)}>
-                    <Coffee className="h-8 w-8" />
+                     <Image src="https://ik.imagekit.io/5iomqoxai6/logo%20(2).jpeg?updatedAt=1759763103032" alt="High Waisted Café Logo" width={40} height={40} className="rounded-full" />
                     <span>High Waisted</span>
                   </Link>
                   <nav className="flex flex-col gap-6 text-lg">
