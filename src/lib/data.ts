@@ -67,14 +67,14 @@ export const menuItems: MenuItem[] = [
   {
     id: '9',
     name: 'THC Medicated Salve',
-    description: 'Targets skin conditions such as dermatitis, eczema, psoriasis, skin rashes, itchy skin, and burns. Made with infused jojoba oil and essential oils. 2 oz.',
-    price: '$20',
+    description: 'Targets skin conditions such as dermatitis, eczema, psoriasis, skin rashes, itchy skin, and burns. Made with infused jojoba oil and essential oils. Available in 2oz, 4oz, and 8oz sizes.',
+    price: '$25 (2oz) / $45 (4oz) / $90 (8oz)',
     imageId: 'menu-magic-chocolate',
   },
   {
     id: '10',
     name: 'Canna Oil',
-    description: '8 oz/1 cup 2000mg. For all your culinary needs, elevate your experience. Infused with a hybrid strain for balanced effects like euphoria, happiness, relaxation, and upliftment.',
+    description: '8 oz / 1 cup, 2000mg. For all your culinary needs, elevate your experience. Infused with a hybrid strain for balanced effects like euphoria, happiness, relaxation, and upliftment.',
     price: '$70',
     imageId: 'menu-relaxation-tea',
   },
