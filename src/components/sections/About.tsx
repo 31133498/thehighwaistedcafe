@@ -11,13 +11,16 @@ export default function About() {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6 text-center md:text-left">
             <h2 className="text-4xl md:text-5xl font-headline font-bold text-primary">
-              Every Cup Tells a Story
+              Wellness Meets the Power of Nature
             </h2>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              At High Waisted Café, we believe that great coffee is more than just a drink; it's an experience. Our journey began with a simple passion for sourcing the finest beans from around the world and roasting them to perfection.
+              Welcome to High Waisted Cafe, where our passion for wellness meets the power of nature. Founded in 2023 by Laquita Syms, a dedicated cannabis enthusiast and connoisseur, our mission is to provide high-quality, safe, and effective cannabis-infused products designed to enhance your well-being.
             </p>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              We pair our exquisite coffee with hand-crafted pastries, all served in a cozy and welcoming atmosphere. We're a place for community, conversation, and comfort. Welcome to our story.
+              Laquita, a 2024 graduate of St. Louis University's Cannabis Science program, meticulously developed our product line to offer a holistic alternative for pain management, anxiety relief, depression support, improved sleep, and profound relaxation.
+            </p>
+            <p className="text-lg text-muted-foreground leading-relaxed">
+              We believe in the purity and potency of our ingredients. All High Waisted Cafe products are handcrafted by Laquita herself, using only organically sourced cannabis from the finest farms in California and Oregon. Experience the difference that care, expertise, and premium natural ingredients can make in your journey to better health.
             </p>
           </div>
           <div className="relative aspect-square max-w-md mx-auto w-full">
