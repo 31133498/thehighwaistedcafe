@@ -14,8 +14,7 @@ export default function Footer() {
       <div className="container mx-auto px-4 py-8">
         <div className="flex flex-col md:flex-row justify-between items-center gap-6">
           <Link href="#home" className="flex items-center gap-3 text-xl font-headline font-bold text-primary">
-            <Image src="https://ik.imagekit.io/5iomqoxai6/logo%20(2).jpeg?updatedAt=1759763103032" alt="High Waisted Café Logo" width={50} height={50} className="rounded-full" />
-            <span>High Waisted Café</span>
+            <Image src="https://ik.imagekit.io/5iomqoxai6/logo%20(2).jpeg?updatedAt=1759763103032" alt="High Waisted Café Logo" width={100} height={100} className="rounded-full" />
           </Link>
           <div className="flex gap-4">
             {socialLinks.map((link) => (
