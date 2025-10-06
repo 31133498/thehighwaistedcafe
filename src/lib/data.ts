@@ -53,7 +53,7 @@ export const menuItems: MenuItem[] = [
   {
     id: '7',
     name: 'THC Lean',
-    description: '16 fl oz 1000mg... infused with hybrid strain for more balanced effects.. you can add to your beverage of choice … effects: euphoria, happy, relaxing, sociable, uplifting',
+    description: '16 fl oz 1000mg. Infused with hybrid strain for more balanced effects. You can add to your beverage of choice. Effects: euphoria, happy, relaxing, sociable, uplifting.',
     price: '$65',
     imageId: 'menu-gummy-bears',
   },
@@ -73,9 +73,9 @@ export const menuItems: MenuItem[] = [
   },
   {
     id: '10',
-    name: 'Relaxation Tea',
-    description: 'A soothing herbal tea infused with 25mg of CBD and a hint of THC to melt your stress away. Served hot or iced.',
-    price: '$8',
+    name: 'Canna Oil',
+    description: '8 oz (1 cup) of 2000mg Canna Oil. For all your culinary needs, elevate your experience. Infused with a hybrid strain for balanced effects like euphoria, happiness, relaxation, and upliftment.',
+    price: '$70',
     imageId: 'menu-relaxation-tea',
   },
 ];
