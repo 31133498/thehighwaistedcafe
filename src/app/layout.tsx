@@ -3,8 +3,8 @@ import './globals.css';
 import { Toaster } from "@/components/ui/toaster";
 
 export const metadata: Metadata = {
-  title: 'High Waisted Café',
-  description: 'Sip, Relax, Enjoy at High Waisted Café',
+  title: 'High Waisted Café | Cannabis Infused Edibles & Treats',
+  description: 'Discover a unique selection of cannabis-infused products at High Waisted Café. From THC lollipops and lean to medicated salves and cannabutter, we offer premium, lab-tested treats and culinary essentials.',
 };
 
 export default function RootLayout({
