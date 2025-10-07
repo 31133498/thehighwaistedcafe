@@ -82,7 +82,7 @@ export const menuItems: MenuItem[] = [
     id: '11',
     name: 'THC Medicated Salve 660mg',
     description: 'For chronic pain, inflammation, and swelling... arthritis pain, joint pain, muscle pain, nerve pain.',
-    price: 'Contact for Price',
+    price: '$30 (2oz) / $50 (4oz) / $90 (9oz)',
     imageId: 'menu-new-salve',
   },
   {
