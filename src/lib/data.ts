@@ -91,5 +91,12 @@ export const menuItems: MenuItem[] = [
     description: 'This is my THC medicated salve 660 mg THC… for chronic pain inflammation and swelling… arthritis, fibromyalgia joint/muscle pain etc',
     price: 'Contact for Price',
     imageId: 'menu-fibro-salve',
+  },
+  {
+    id: '13',
+    name: 'THC Medicated Salve for Skin',
+    description: 'THC salve for skin conditions such as eczema, dermatitis, psoriasis, burns and other skin conditions… 660 mg THC',
+    price: '$25 for 2 oz',
+    imageId: 'menu-skin-salve',
   }
 ];
