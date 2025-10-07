@@ -79,17 +79,10 @@ export const menuItems: MenuItem[] = [
     imageId: 'menu-relaxation-tea',
   },
   {
-    id: '11',
-    name: 'THC Medicated Salve 660mg',
-    description: 'For chronic pain, inflammation, and swelling... arthritis pain, joint pain, muscle pain, nerve pain.',
-    price: '$30 (2oz) / $50 (4oz) / $90 (9oz)',
-    imageId: 'menu-new-salve',
-  },
-  {
     id: '12',
     name: 'THC Medicated Salve 660mg (Fibromyalgia)',
     description: 'This is my THC medicated salve 660 mg THC… for chronic pain inflammation and swelling… arthritis, fibromyalgia joint/muscle pain etc',
-    price: '$30 (2oz) / $50 (4oz) / $90 (8oz)',
+    price: '$30 for 2oz…. $50 for $4oz…. $90 for 8 oz',
     imageId: 'menu-fibro-salve',
   },
   {
