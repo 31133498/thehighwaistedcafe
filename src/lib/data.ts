@@ -89,7 +89,7 @@ export const menuItems: MenuItem[] = [
     id: '12',
     name: 'THC Medicated Salve 660mg (Fibromyalgia)',
     description: 'This is my THC medicated salve 660 mg THC… for chronic pain inflammation and swelling… arthritis, fibromyalgia joint/muscle pain etc',
-    price: 'Contact for Price',
+    price: '$30 (2oz) / $50 (4oz) / $90 (8oz)',
     imageId: 'menu-fibro-salve',
   },
   {
