@@ -78,4 +78,11 @@ export const menuItems: MenuItem[] = [
     price: '$70',
     imageId: 'menu-relaxation-tea',
   },
+  {
+    id: '11',
+    name: 'THC Medicated Salve 660mg',
+    description: 'For chronic pain, inflammation, and swelling... arthritis pain, joint pain, muscle pain, nerve pain.',
+    price: 'Contact for Price',
+    imageId: 'menu-new-salve',
+  }
 ];
