@@ -67,14 +67,14 @@ export const menuItems: MenuItem[] = [
   {
     id: '9',
     name: 'THC Medicated Salve',
-    description: 'THC salve for skin conditions: dermatitis eczema psoriasis etc',
+    description: 'THC salve for skin conditions: dermatitis, eczema, psoriasis, etc.',
     price: '$25 (2oz) / $45 (4oz) / $90 (8oz)',
     imageId: 'menu-magic-chocolate',
   },
   {
     id: '10',
     name: 'Canna Oil',
-    description: '8 oz / 1 cup, 2000mg. For all your culinary needs, elevate your experience. Infused with a hybrid strain for balanced effects like euphoria, happiness, relaxation, and upliftment.',
+    description: '8 oz / 1 cup, 2000mg. For all your culinary needs, elevate your experience … infused with hybrid strain for more balanced effect such as euphoria happy relaxing uplifting',
     price: '$70',
     imageId: 'menu-relaxation-tea',
   },
@@ -84,5 +84,12 @@ export const menuItems: MenuItem[] = [
     description: 'For chronic pain, inflammation, and swelling... arthritis pain, joint pain, muscle pain, nerve pain.',
     price: 'Contact for Price',
     imageId: 'menu-new-salve',
+  },
+  {
+    id: '12',
+    name: 'THC Medicated Salve 660mg (Fibromyalgia)',
+    description: 'This is my THC medicated salve 660 mg THC… for chronic pain inflammation and swelling… arthritis, fibromyalgia joint/muscle pain etc',
+    price: 'Contact for Price',
+    imageId: 'menu-fibro-salve',
   }
 ];
