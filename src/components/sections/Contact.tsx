@@ -98,7 +98,7 @@ export default function Contact() {
               </div>
               <div>
                 <h3 className="font-semibold text-lg">Our Address</h3>
-                <p className="text-muted-foreground">High Waisted Cafe 3375 N Hwy 67 Florissant Mo 63033</p>
+                <p className="text-muted-foreground">High Waisted Cafe 5494 Brown Road Suite 112 113B Hazelwood MO 63042</p>
               </div>
             </div>
             <div className="flex items-start gap-4">
@@ -107,7 +107,7 @@ export default function Contact() {
               </div>
               <div>
                 <h3 className="font-semibold text-lg">Email Us</h3>
-                <a href="mailto:info@highwaistedcafe.com" className="text-muted-foreground hover:text-primary">info@highwaistedcafe.com</a>
+                <a href="mailto:info@HighWaistedCafe.com" className="text-muted-foreground hover:text-primary">info@HighWaistedCafe.com</a>
               </div>
             </div>
              <div className="flex items-start gap-4">
