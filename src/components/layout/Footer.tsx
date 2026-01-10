@@ -1,11 +1,25 @@
 import Link from 'next/link';
 import Image from 'next/image';
-import { Instagram, Facebook, Twitter } from 'lucide-react';
+import { Instagram } from 'lucide-react';
+
+const TikTokIcon = (props: React.SVGProps<SVGSVGElement>) => (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 24 24"
+      fill="currentColor"
+      stroke="currentColor"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      {...props}
+    >
+      <path d="M16.6 5.82s.51.5 0 0A4.24 4.24 0 0 1 12.3 3v8.1a3.86 3.86 0 1 0 3.85-3.85A4 4 0 0 1 16.6 5.82Z"></path>
+    </svg>
+  );
 
 const socialLinks = [
   { href: 'https://www.instagram.com/highwaistedcafe', icon: Instagram, label: 'Instagram' },
-  { href: '#', icon: Facebook, label: 'Facebook' },
-  { href: '#', icon: Twitter, label: 'Twitter' },
+  { href: 'https://www.tiktok.com/@highwaistedcafe', icon: TikTokIcon, label: 'TikTok' },
 ];
 
 export default function Footer() {
