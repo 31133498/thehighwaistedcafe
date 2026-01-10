@@ -3,7 +3,7 @@ import Image from 'next/image';
 import { Instagram, Facebook, Twitter } from 'lucide-react';
 
 const socialLinks = [
-  { href: '#', icon: Instagram, label: 'Instagram' },
+  { href: 'https://www.instagram.com/highwaistedcafe', icon: Instagram, label: 'Instagram' },
   { href: '#', icon: Facebook, label: 'Facebook' },
   { href: '#', icon: Twitter, label: 'Twitter' },
 ];
@@ -18,7 +18,7 @@ export default function Footer() {
           </Link>
           <div className="flex gap-4">
             {socialLinks.map((link) => (
-              <Link key={link.label} href={link.href} aria-label={link.label} className="text-muted-foreground hover:text-primary transition-colors">
+              <Link key={link.label} href={link.href} aria-label={link.label} target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
                 <link.icon className="h-6 w-6" />
               </Link>
             ))}
