@@ -52,7 +52,7 @@ export const menuItems: MenuItem[] = [
   },
   {
     id: '7',
-    name: 'THC Lean',
+    name: 'THC Lean (16oz)',
     description: '16 fl oz 1000mg. Infused with hybrid strain for more balanced effects. You can add to your beverage of choice. Effects: euphoria, happy, relaxing, sociable, uplifting.',
     price: '$65',
     imageId: 'menu-gummy-bears',
@@ -98,5 +98,12 @@ export const menuItems: MenuItem[] = [
     description: '400 mg/each. Effects: euphoric, happy, relaxing',
     price: '$15',
     imageId: 'menu-rice-krispy',
+  },
+  {
+    id: '15',
+    name: 'THC Lean (13oz)',
+    description: '1000mg… add to your beverage of choice to create a custom THC drink… effects : deep body relaxation, sedation, euphoria, sociable and uplifting',
+    price: '$65',
+    imageId: 'menu-thc-lean-13oz',
   }
 ];

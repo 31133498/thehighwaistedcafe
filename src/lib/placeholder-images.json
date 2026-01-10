@@ -101,6 +101,12 @@
       "description": "Chocolate rice krispy treats",
       "imageUrl": "https://i.ibb.co/hZ60TjM/image.png",
       "imageHint": "rice krispy"
+    },
+    {
+      "id": "menu-thc-lean-13oz",
+      "description": "THC lean 13oz",
+      "imageUrl": "https://i.ibb.co/zVh6y3Z/new-lean.jpg",
+      "imageHint": "THC lean"
     }
   ]
 }
