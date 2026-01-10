@@ -82,7 +82,7 @@ export const menuItems: MenuItem[] = [
     id: '12',
     name: 'THC Medicated Salve 660mg (Fibromyalgia)',
     description: 'This is my THC medicated salve 660 mg THC… for chronic pain inflammation and swelling… arthritis, fibromyalgia joint/muscle pain etc',
-    price: '$30 for 2oz…. $50 for $4oz…. $90 for 8 oz',
+    price: '$30 for 2oz…. $50 for 4oz…. $90 for 8 oz',
     imageId: 'menu-fibro-salve',
   },
   {
@@ -91,5 +91,12 @@ export const menuItems: MenuItem[] = [
     description: 'THC salve for skin conditions such as eczema, dermatitis, psoriasis, burns and other skin conditions… 660 mg THC',
     price: '$25 for 2 oz',
     imageId: 'menu-skin-salve',
+  },
+  {
+    id: '14',
+    name: 'Chocolate rice krispy treats',
+    description: '400 mg/each. Effects: euphoric, happy, relaxing',
+    price: '$15',
+    imageId: 'menu-rice-krispy',
   }
 ];

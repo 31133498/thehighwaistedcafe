@@ -95,6 +95,12 @@
       "description": "THC Medicated Salve for Skin Conditions",
       "imageUrl": "https://ik.imagekit.io/5iomqoxai6/WhatsApp%20Image%202025-10-07%20at%2011.01.02%20AM.jpeg?updatedAt=1759853029952",
       "imageHint": "medicated salve skin"
+    },
+    {
+      "id": "menu-rice-krispy",
+      "description": "Chocolate rice krispy treats",
+      "imageUrl": "https://i.ibb.co/4brDTkS/image.png",
+      "imageHint": "rice krispy"
     }
   ]
 }
