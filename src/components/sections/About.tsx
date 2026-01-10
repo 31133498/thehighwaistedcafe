@@ -11,16 +11,16 @@ export default function About() {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6 text-center md:text-left">
             <h2 className="text-4xl md:text-5xl font-headline font-bold text-primary">
-              Wellness Meets the Power of Nature
+              High Quality THC Infused Products
             </h2>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              Welcome to High Waisted Cafe, where our passion for wellness meets the power of nature. Founded in 2023 by Laquita Syms, a dedicated cannabis enthusiast and connoisseur, our mission is to provide high-quality, safe, and effective cannabis-infused products designed to enhance your well-being.
+              Welcome to High Waisted Cafe’, where we specialize in high quality THC infused products/ treats with a buzz. That will help you to relax, vibe out, and or achieve a restful night’s sleep.
             </p>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              Laquita, a 2024 graduate of St. Louis University's Cannabis Science program, meticulously developed our product line to offer a holistic alternative for pain management, anxiety relief, depression support, improved sleep, and profound relaxation.
+              Founded in March 2024 by LaQuita “Que” Syms, a St.Louis native who is a cannabis enthusiast and connoisseur. Que studied cannabis science at Saint Louis University. Also, has a degree in Healthcare Management from Missouri Baptist University.
             </p>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              We believe in the purity and potency of our ingredients. All High Waisted Cafe products are handcrafted by Laquita herself, using only organically sourced cannabis from the finest farms in California and Oregon. Experience the difference that care, expertise, and premium natural ingredients can make in your journey to better health.
+              Our cannabis infused product line was created in order to give people an alternative holistic approach to their pain management needs, and to promote healing for conditions such as anxiety, PTSD, promote relaxation, euphoria, and restful sleep.
             </p>
           </div>
           <div className="relative aspect-square max-w-md mx-auto w-full">
