@@ -22,24 +22,54 @@ const socialLinks = [
   { href: 'https://www.tiktok.com/@highwaistedcafe', icon: TikTokIcon, label: 'TikTok' },
 ];
 
+const footerLinks = [
+  { href: '#home', label: 'Home' },
+  { href: '#menu', label: 'Menu' },
+  { href: '#about', label: 'About' },
+  { href: '#contact', label: 'Contact' },
+];
+
 export default function Footer() {
   return (
-    <footer className="bg-background/90 backdrop-blur-sm border-t border-secondary/30">
-      <div className="container mx-auto px-4 py-8">
-        <div className="flex flex-col md:flex-row justify-between items-center gap-6">
-          <Link href="#home" className="flex items-center gap-3 text-xl font-headline font-bold text-primary">
-            <Image src="https://ik.imagekit.io/5iomqoxai6/logo%20(2).jpeg?updatedAt=1759763103032" alt="High Waisted Café Logo" width={100} height={100} className="rounded-full" />
-          </Link>
-          <div className="flex gap-4">
-            {socialLinks.map((link) => (
-              <Link key={link.label} href={link.href} aria-label={link.label} target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
-                <link.icon className="h-6 w-6" />
-              </Link>
-            ))}
-          </div>
-          <p className="text-sm text-muted-foreground text-center md:text-right">
-            &copy; {new Date().getFullYear()} High Waisted Café. All Rights Reserved.
-          </p>
+    <footer className="bg-card border-t">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div className="flex flex-col items-start">
+                <Link href="#home" className="flex items-center gap-2 mb-4">
+                    <Image src="https://ik.imagekit.io/5iomqoxai6/logo%20(2).jpeg?updatedAt=1759763103032" alt="High Waisted Café Logo" width={50} height={50} className="rounded-full" />
+                    <span className="text-xl font-bold font-headline text-foreground">High Waisted Café</span>
+                </Link>
+                <p className="text-muted-foreground text-sm max-w-xs">Premium, lab-tested cannabis-infused treats and culinary essentials.</p>
+            </div>
+
+            <div>
+                <h3 className="text-sm font-semibold text-foreground tracking-wider uppercase">Quick Links</h3>
+                <ul className="mt-4 space-y-2">
+                    {footerLinks.map(link => (
+                        <li key={link.href}>
+                            <Link href={link.href} className="text-sm text-muted-foreground hover:text-primary transition-colors">
+                                {link.label}
+                            </Link>
+                        </li>
+                    ))}
+                </ul>
+            </div>
+            
+            <div>
+                 <h3 className="text-sm font-semibold text-foreground tracking-wider uppercase">Follow Us</h3>
+                 <div className="flex gap-4 mt-4">
+                    {socialLinks.map((link) => (
+                    <Link key={link.label} href={link.href} aria-label={link.label} target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
+                        <link.icon className="h-6 w-6" />
+                    </Link>
+                    ))}
+                </div>
+            </div>
+        </div>
+        <div className="mt-8 pt-8 border-t border-border/50 flex flex-col sm:flex-row justify-between items-center">
+            <p className="text-sm text-muted-foreground">
+                &copy; {new Date().getFullYear()} High Waisted Café. All Rights Reserved.
+            </p>
         </div>
       </div>
     </footer>

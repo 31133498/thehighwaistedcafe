@@ -3,16 +3,16 @@
 import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import { Menu as MenuIcon } from 'lucide-react';
+import { Menu as MenuIcon, X } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
 import { cn } from '@/lib/utils';
 
 const navLinks = [
   { href: '#home', label: 'Home' },
+  { href: '#about', label: 'About' },
   { href: '#menu', label: 'Menu' },
-  { href: '#about', label: 'About Us' },
-  { href: '#mission', label: 'Our Mission' },
+  { href: '#mission', label: 'Mission' },
   { href: '#contact', label: 'Contact' },
 ];
 
@@ -22,7 +22,7 @@ export default function Header() {
 
   useEffect(() => {
     const handleScroll = () => {
-      setIsScrolled(window.scrollY > 10);
+      setIsScrolled(window.scrollY > 20);
     };
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
@@ -32,21 +32,22 @@ export default function Header() {
     <header
       className={cn(
         'fixed top-0 left-0 right-0 z-50 transition-all duration-300',
-        isScrolled ? 'bg-background/80 shadow-md backdrop-blur-lg' : 'bg-transparent'
+        isScrolled ? 'bg-background/80 shadow-lg backdrop-blur-lg' : 'bg-transparent'
       )}
     >
-      <div className="container mx-auto px-4">
-        <div className="flex justify-between items-center h-28">
-          <Link href="#home" className="flex items-center gap-3 text-2xl font-headline font-bold text-primary">
-            <Image src="https://ik.imagekit.io/5iomqoxai6/logo%20(2).jpeg?updatedAt=1759763103032" alt="High Waisted Café Logo" width={100} height={100} className="rounded-full" />
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="flex justify-between items-center h-24">
+          <Link href="#home" className="flex items-center gap-2">
+            <Image src="https://ik.imagekit.io/5iomqoxai6/logo%20(2).jpeg?updatedAt=1759763103032" alt="High Waisted Café Logo" width={50} height={50} className="rounded-full" />
+            <span className="text-xl font-bold font-headline text-foreground">High Waisted Café</span>
           </Link>
 
-          <nav className="hidden md:flex items-center gap-6">
+          <nav className="hidden md:flex items-center gap-8">
             {navLinks.map((link) => (
               <Link
                 key={link.href}
                 href={link.href}
-                className="text-foreground/80 hover:text-primary transition-colors font-medium"
+                className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors"
               >
                 {link.label}
               </Link>
@@ -54,7 +55,7 @@ export default function Header() {
           </nav>
 
           <div className="hidden md:block">
-            <Button asChild className="bg-accent text-accent-foreground hover:bg-accent/90">
+            <Button asChild>
               <Link href="#menu">Order Now</Link>
             </Button>
           </div>
@@ -67,26 +68,37 @@ export default function Header() {
                   <span className="sr-only">Open menu</span>
                 </Button>
               </SheetTrigger>
-              <SheetContent side="right" className="w-[300px] sm:w-[400px] bg-background">
-                <div className="flex flex-col h-full p-6">
-                  <Link href="#home" className="flex items-center gap-3 text-2xl font-headline font-bold text-primary mb-8" onClick={() => setMobileMenuOpen(false)}>
-                     <Image src="https://ik.imagekit.io/5iomqoxai6/logo%20(2).jpeg?updatedAt=1759763103032" alt="High Waisted Café Logo" width={100} height={100} className="rounded-full" />
-                  </Link>
-                  <nav className="flex flex-col gap-6 text-lg">
+              <SheetContent side="right" className="w-full max-w-sm bg-card p-0">
+                <div className="flex flex-col h-full">
+                  <div className="flex justify-between items-center p-6 border-b">
+                     <Link href="#home" className="flex items-center gap-2" onClick={() => setMobileMenuOpen(false)}>
+                        <Image src="https://ik.imagekit.io/5iomqoxai6/logo%20(2).jpeg?updatedAt=1759763103032" alt="High Waisted Café Logo" width={40} height={40} className="rounded-full" />
+                         <span className="text-lg font-bold font-headline text-foreground">High Waisted Café</span>
+                    </Link>
+                    <SheetTrigger asChild>
+                        <Button variant="ghost" size="icon">
+                            <X />
+                            <span className="sr-only">Close menu</span>
+                        </Button>
+                    </SheetTrigger>
+                  </div>
+                  <nav className="flex flex-col gap-2 p-6 text-lg">
                     {navLinks.map((link) => (
                       <Link
                         key={link.href}
                         href={link.href}
-                        className="text-foreground/80 hover:text-primary transition-colors font-medium"
+                        className="text-muted-foreground hover:text-primary transition-colors font-medium p-3 rounded-lg hover:bg-accent"
                         onClick={() => setMobileMenuOpen(false)}
                       >
                         {link.label}
                       </Link>
                     ))}
                   </nav>
-                  <Button asChild className="mt-auto bg-accent text-accent-foreground hover:bg-accent/90">
-                    <Link href="#menu" onClick={() => setMobileMenuOpen(false)}>Order Now</Link>
-                  </Button>
+                  <div className="mt-auto p-6 border-t">
+                    <Button asChild className="w-full">
+                      <Link href="#menu" onClick={() => setMobileMenuOpen(false)}>Order Now</Link>
+                    </Button>
+                  </div>
                 </div>
               </SheetContent>
             </Sheet>
