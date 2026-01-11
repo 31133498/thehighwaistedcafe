@@ -51,13 +51,6 @@ export const menuItems: MenuItem[] = [
     imageId: 'menu-cheesecake',
   },
   {
-    id: '8',
-    name: 'Cannabutter',
-    description: '700 mg. Made with a hybrid strain for more balanced effects. Elevate your experience for all your culinary needs.',
-    price: '$40 (4oz) / $80 (8oz)',
-    imageId: 'menu-space-muffin',
-  },
-  {
     id: '10',
     name: 'Canna Oil',
     description: '8 oz / 1 cup, 2000mg. For all your culinary needs, elevate your experience … infused with hybrid strain for more balanced effect such as euphoria happy relaxing uplifting',
@@ -66,9 +59,9 @@ export const menuItems: MenuItem[] = [
   },
   {
     id: '12',
-    name: 'THC Medicated Salve 660mg (Fibromyalgia)',
-    description: 'This is my THC medicated salve 660 mg THC… for chronic pain inflammation and swelling… arthritis, fibromyalgia joint/muscle pain etc',
-    price: '$30 for 2oz…. $50 for 4oz…. $90 for 8 oz',
+    name: 'THC Medicated Salve',
+    description: 'This is my THC medication salve.. it targets chronic pain inflammation and swelling.. for arthritis, fibromyalgia, rheumatoid nerve pain joint/muscle pain..',
+    price: '2oz/$30, 4oz/$60, 8oz/$90',
     imageId: 'menu-fibro-salve',
   },
   {
