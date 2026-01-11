@@ -91,19 +91,5 @@ export const menuItems: MenuItem[] = [
     description: 'THC salve for skin conditions such as eczema, dermatitis, psoriasis, burns and other skin conditions… 660 mg THC',
     price: '$25 for 2 oz',
     imageId: 'menu-skin-salve',
-  },
-  {
-    id: '14',
-    name: 'Chocolate rice krispy treats',
-    description: '400 mg/each. Effects: euphoric, happy, relaxing',
-    price: '$15',
-    imageId: 'menu-rice-krispy',
-  },
-  {
-    id: '15',
-    name: 'THC Lean (13oz)',
-    description: '1000mg… add to your beverage of choice to create a custom THC drink… effects : deep body relaxation, sedation, euphoria, sociable and uplifting',
-    price: '$65',
-    imageId: 'menu-thc-lean-13oz',
   }
 ];
