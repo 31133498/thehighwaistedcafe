@@ -91,5 +91,12 @@ export const menuItems: MenuItem[] = [
     description: 'THC salve for skin conditions such as eczema, dermatitis, psoriasis, burns and other skin conditions… 660 mg THC',
     price: '$25 for 2 oz',
     imageId: 'menu-skin-salve',
+  },
+  {
+    id: '14',
+    name: 'Ethanol Tincture',
+    description: '750 mg 1oz. Our ethanol tincture features a full spectrum THC extract utilizing a sugar cane alcohol as a solvent. Add 1 dropper full to your beverage of choice or sublingual by placing under the tongue for rapid absorption. Benefits include: calm/relaxed, better sleep, happy thoughts.',
+    price: '$35',
+    imageId: 'menu-ethanol-tincture',
   }
 ];

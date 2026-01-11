@@ -97,16 +97,10 @@
       "imageHint": "medicated salve skin"
     },
     {
-      "id": "menu-rice-krispy",
-      "description": "Chocolate rice krispy treats",
-      "imageUrl": "https://i.ibb.co/b58xKQ0/image.png",
-      "imageHint": "rice krispy"
-    },
-    {
-      "id": "menu-thc-lean-13oz",
-      "description": "THC lean 13oz",
-      "imageUrl": "https://i.ibb.co/zVh6y3Z/new-lean.jpg",
-      "imageHint": "THC lean"
+      "id": "menu-ethanol-tincture",
+      "description": "Ethanol Tincture 750 mg",
+      "imageUrl": "https://i.ibb.co/pvWNwt6D/IMG-20260108-WA0011.jpg",
+      "imageHint": "tincture bottle"
     }
   ]
 }
