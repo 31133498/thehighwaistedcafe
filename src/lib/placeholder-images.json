@@ -113,6 +113,12 @@
       "description": "THC lean in a bottle.",
       "imageUrl": "https://i.ibb.co/kV04F2bY/motion-photo-6415216044439034507.jpg",
       "imageHint": "thc drink"
+    },
+    {
+      "id": "menu-rice-krispy",
+      "description": "Chocolate rice krispy treats",
+      "imageUrl": "https://i.ibb.co/N2HXytv9/Whats-App-Image-2026-01-10-at-6-07-19-PM-1.jpg",
+      "imageHint": "krispy treats"
     }
   ]
 }

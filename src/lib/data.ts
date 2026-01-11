@@ -112,5 +112,12 @@ export const menuItems: MenuItem[] = [
     description: '13oz. 1000mg. Add to your beverage of choice to create a custom THC drink. Effects: deep body relaxation, sedation, euphoria, sociable and uplifting.',
     price: '$65',
     imageId: 'menu-thc-lean',
+  },
+  {
+    id: '17',
+    name: 'Chocolate Rice Krispy Treats',
+    description: '400 mg/each. Effects: euphoric, happy, relaxing.',
+    price: '$15',
+    imageId: 'menu-rice-krispy',
   }
 ];
