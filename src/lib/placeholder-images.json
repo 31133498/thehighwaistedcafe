@@ -101,6 +101,12 @@
       "description": "Ethanol Tincture 750 mg",
       "imageUrl": "https://i.ibb.co/pvWNwt6D/IMG-20260108-WA0011.jpg",
       "imageHint": "tincture bottle"
+    },
+    {
+      "id": "menu-wing-sauce",
+      "description": "THC infused wing sauce/dipping sauce",
+      "imageUrl": "https://i.ibb.co/0yNM6KY6/IMG-20260108-WA0018.jpg",
+      "imageHint": "wing sauce"
     }
   ]
 }

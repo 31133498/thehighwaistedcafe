@@ -98,5 +98,12 @@ export const menuItems: MenuItem[] = [
     description: '750 mg 1oz. Our ethanol tincture features a full spectrum THC extract utilizing a sugar cane alcohol as a solvent. Add 1 dropper full to your beverage of choice or sublingual by placing under the tongue for rapid absorption. Benefits include: calm/relaxed, better sleep, happy thoughts.',
     price: '$35',
     imageId: 'menu-ethanol-tincture',
+  },
+  {
+    id: '15',
+    name: 'THC Infused Wing Sauce',
+    description: '400 mg/8 oz jar. Barbecue and honey hot flavors available.',
+    price: '$20',
+    imageId: 'menu-wing-sauce',
   }
 ];
