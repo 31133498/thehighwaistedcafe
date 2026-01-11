@@ -51,25 +51,11 @@ export const menuItems: MenuItem[] = [
     imageId: 'menu-cheesecake',
   },
   {
-    id: '7',
-    name: 'THC Lean (16oz)',
-    description: '16 fl oz 1000mg. Infused with hybrid strain for more balanced effects. You can add to your beverage of choice. Effects: euphoria, happy, relaxing, sociable, uplifting.',
-    price: '$65',
-    imageId: 'menu-gummy-bears',
-  },
-  {
     id: '8',
     name: 'Cannabutter',
     description: '700 mg. Made with a hybrid strain for more balanced effects. Elevate your experience for all your culinary needs.',
     price: '$40 (4oz) / $80 (8oz)',
     imageId: 'menu-space-muffin',
-  },
-  {
-    id: '9',
-    name: 'THC Medicated Salve',
-    description: 'THC salve for skin conditions: dermatitis, eczema, psoriasis, etc.',
-    price: '$25 (2oz) / $45 (4oz) / $90 (8oz)',
-    imageId: 'menu-magic-chocolate',
   },
   {
     id: '10',
