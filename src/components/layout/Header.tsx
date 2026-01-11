@@ -9,11 +9,12 @@ import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
 import { cn } from '@/lib/utils';
 
 const navLinks = [
-  { href: '#home', label: 'Home' },
-  { href: '#about', label: 'About' },
-  { href: '#menu', label: 'Menu' },
-  { href: '#mission', label: 'Mission' },
-  { href: '#contact', label: 'Contact' },
+  { href: '#home', label: 'Home', target: '' },
+  { href: '#about', label: 'About', target: '' },
+  { href: '#menu', label: 'Menu', target: '' },
+  { href: '#mission', label: 'Mission', target: '' },
+  { href: '#contact', label: 'Contact', target: '' },
+  { href: 'https://cash.app/$HighWaistedCafe', label: 'Payment', target: '_blank' },
 ];
 
 export default function Header() {
@@ -47,6 +48,8 @@ export default function Header() {
               <Link
                 key={link.href}
                 href={link.href}
+                target={link.target}
+                rel={link.target === '_blank' ? 'noopener noreferrer' : ''}
                 className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors"
               >
                 {link.label}
@@ -87,6 +90,8 @@ export default function Header() {
                       <Link
                         key={link.href}
                         href={link.href}
+                        target={link.target}
+                        rel={link.target === '_blank' ? 'noopener noreferrer' : ''}
                         className="text-muted-foreground hover:text-primary transition-colors font-medium p-3 rounded-lg hover:bg-accent"
                         onClick={() => setMobileMenuOpen(false)}
                       >
