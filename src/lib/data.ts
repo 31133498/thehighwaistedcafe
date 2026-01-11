@@ -105,5 +105,12 @@ export const menuItems: MenuItem[] = [
     description: '400 mg/8 oz jar. Barbecue and honey hot flavors available.',
     price: '$20',
     imageId: 'menu-wing-sauce',
+  },
+  {
+    id: '16',
+    name: 'THC Lean',
+    description: '13oz. 1000mg. Add to your beverage of choice to create a custom THC drink. Effects: deep body relaxation, sedation, euphoria, sociable and uplifting.',
+    price: '$65',
+    imageId: 'menu-thc-lean',
   }
 ];
