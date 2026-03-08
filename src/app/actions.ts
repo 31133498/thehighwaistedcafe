@@ -1,6 +1,9 @@
 "use server";
 
 import { z } from "zod";
+import { Resend } from "resend";
+
+const resend = new Resend(process.env.RESEND_API_KEY);
 
 const contactFormSchema = z.object({
   name: z.string().min(2, { message: "Name must be at least 2 characters." }),
@@ -23,13 +26,34 @@ export async function submitContactForm(prevState: any, formData: FormData) {
     };
   }
 
-  // Here you would typically send an email or save to a database.
-  // For this demo, we'll just log it and return a success message.
-  console.log("New contact form submission:", validatedFields.data);
+  const { name, email, message } = validatedFields.data;
 
-  return {
-    message: "Thank you for your message! We'll get back to you soon.",
-    success: true,
-    errors: {},
-  };
+  try {
+    await resend.emails.send({
+      from: 'High Waisted Cafe <onboarding@resend.dev>',
+      to: process.env.CONTACT_EMAIL || 'info@HighWaistedCafe.com',
+      replyTo: email,
+      subject: `New Contact Form: ${name}`,
+      html: `
+        <h2>New Contact Form Submission</h2>
+        <p><strong>Name:</strong> ${name}</p>
+        <p><strong>Email:</strong> ${email}</p>
+        <p><strong>Message:</strong></p>
+        <p>${message}</p>
+      `,
+    });
+
+    return {
+      message: "Thank you for your message! We'll get back to you soon.",
+      success: true,
+      errors: {},
+    };
+  } catch (error) {
+    console.error("Email send error:", error);
+    return {
+      message: "Failed to send message. Please try again.",
+      success: false,
+      errors: {},
+    };
+  }
 }
