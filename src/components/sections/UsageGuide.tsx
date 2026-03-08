@@ -1,5 +1,6 @@
-import { AlertTriangle, UserCheck, Utensils, CupSoda, Droplets, Clock } from "lucide-react";
+import { AlertTriangle, UserCheck, Utensils, CupSoda, Droplets, Clock, Truck } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { Badge } from "@/components/ui/badge";
 
 const usageSteps = [
   {
@@ -19,6 +20,13 @@ const usageSteps = [
   },
 ];
 
+const shippingStates = [
+  "Alaska", "Arizona", "California", "Colorado", "Connecticut", "DC", "Delaware", 
+  "Illinois", "Maine", "Massachusetts", "Maryland", "Michigan", "Minnesota", 
+  "Missouri", "Montana", "Nevada", "New Jersey", "New Mexico", "New York", 
+  "Ohio", "Oregon", "Rhode Island", "Vermont", "Virginia", "Washington"
+];
+
 export default function UsageGuide() {
   return (
     <section id="usage-guide" className="py-24 sm:py-32 bg-background">
@@ -33,8 +41,8 @@ export default function UsageGuide() {
           </h2>
         </div>
 
-        <div className="grid lg:grid-cols-3 gap-8 mb-16">
-          <Card className="lg:col-span-3 border-amber-500/20 bg-amber-500/5 backdrop-blur-sm overflow-hidden relative">
+        <div className="grid lg:grid-cols-2 gap-8 mb-16">
+          <Card className="border-amber-500/20 bg-amber-500/5 backdrop-blur-sm overflow-hidden relative">
             <div className="absolute top-0 right-0 p-4 opacity-10">
                 <UserCheck size={120} />
             </div>
@@ -43,17 +51,41 @@ export default function UsageGuide() {
                 <UserCheck className="h-6 w-6" />
               </div>
               <div>
-                <CardTitle className="font-headline text-2xl">🔞 Age Requirement (Mandatory)</CardTitle>
+                <CardTitle className="font-headline text-2xl">🔞 Age Requirement</CardTitle>
               </div>
             </CardHeader>
-            <CardContent className="space-y-4 text-lg">
+            <CardContent className="space-y-4">
               <p className="font-medium text-foreground">
-                All products sold on this website are strictly for adults only.
+                All products are strictly for adults only.
               </p>
-              <p className="text-muted-foreground leading-relaxed">
-                You must be <span className="text-amber-500 font-bold text-xl">21 years of age or older</span> to purchase or use any product on this site. 
-                By accessing this website and purchasing our products, you confirm that you meet the legal age requirement in your location.
+              <p className="text-muted-foreground leading-relaxed text-sm sm:text-base">
+                You must be <span className="text-amber-500 font-bold">21 years of age or older</span> to purchase or use any product. 
+                By accessing this site, you confirm you meet the legal age requirement in your location.
               </p>
+            </CardContent>
+          </Card>
+
+          <Card className="border-primary/20 bg-primary/5 backdrop-blur-sm overflow-hidden relative">
+            <div className="absolute top-0 right-0 p-4 opacity-10">
+                <Truck size={120} />
+            </div>
+            <CardHeader className="flex flex-row items-center gap-4">
+              <div className="bg-primary text-white p-3 rounded-xl">
+                <Truck className="h-6 w-6" />
+              </div>
+              <div>
+                <CardTitle className="font-headline text-2xl">📦 Shipping Availability</CardTitle>
+              </div>
+            </CardHeader>
+            <CardContent>
+              <p className="text-sm text-muted-foreground mb-4">We currently ship to the following US states and districts:</p>
+              <div className="flex flex-wrap gap-2">
+                {shippingStates.map((state) => (
+                  <Badge key={state} variant="secondary" className="bg-background/50 text-foreground border-primary/10">
+                    {state}
+                  </Badge>
+                ))}
+              </div>
             </CardContent>
           </Card>
         </div>
