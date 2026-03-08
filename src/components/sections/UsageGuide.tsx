@@ -51,7 +51,7 @@ export default function UsageGuide() {
                 <UserCheck className="h-6 w-6" />
               </div>
               <div>
-                <CardTitle className="font-headline text-2xl">🔞 Age Requirement</CardTitle>
+                <CardTitle className="font-headline text-2xl">Age Requirement</CardTitle>
               </div>
             </CardHeader>
             <CardContent className="space-y-4">
@@ -74,7 +74,7 @@ export default function UsageGuide() {
                 <Truck className="h-6 w-6" />
               </div>
               <div>
-                <CardTitle className="font-headline text-2xl">📦 Shipping Availability</CardTitle>
+                <CardTitle className="font-headline text-2xl">Shipping Availability</CardTitle>
               </div>
             </CardHeader>
             <CardContent>
@@ -92,7 +92,7 @@ export default function UsageGuide() {
 
         <div className="space-y-12">
           <div className="text-center">
-            <h3 className="text-2xl font-headline font-bold text-foreground">📌 How to Use High Waisted Products</h3>
+            <h3 className="text-2xl font-headline font-bold text-foreground">How to Use High Waisted Products</h3>
             <p className="text-muted-foreground mt-2 italic">Start slow and find your perfect vibe.</p>
           </div>
 
