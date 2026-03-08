@@ -5,6 +5,7 @@ import About from '@/components/sections/About';
 import Menu from '@/components/sections/Menu';
 import Mission from '@/components/sections/Mission';
 import UsageGuide from '@/components/sections/UsageGuide';
+import ShippingStates from '@/components/sections/ShippingStates';
 import Contact from '@/components/sections/Contact';
 
 export default function Home() {
@@ -17,6 +18,7 @@ export default function Home() {
         <Menu />
         <Mission />
         <UsageGuide />
+        <ShippingStates />
         <Contact />
       </main>
       <Footer />
